@@ -8,6 +8,10 @@
 ## Descrição
 Durante a adição de um produto a partir da busca, o botão "Adicionar" não apresenta um estado de *loading* (desabilitado) enquanto aguarda a resposta da API. Em conexões lentas (3G), isso permite duplo/triplo clique acidental pelo utilizador.
 
+## Pré-condições
+- O utilizador deve estar com uma rede simulada lenta (Slow 3G).
+- O carrinho de compras deve preferencialmente estar vazio ou com contagem conhecida.
+
 ## Passos para Reproduzir
 1. Aceder a continente.pt e pesquisar por qualquer produto (ex: "Arroz").
 2. No DevTools (Network), simular "Slow 3G".

@@ -1,6 +1,9 @@
 # 🛒 Automação E2E & Agile QA - Continente E-Commerce
 
-Este projeto demonstra a abordagem completa de um ciclo de Quality Assurance num ambiente Ágil, utilizando o e-commerce real do Continente como caso de estudo. O foco está na rastreabilidade entre os requisitos de negócio (Jira) e a execução técnica (Playwright).
+Este projeto demonstra a abordagem completa de um ciclo de Quality Assurance num ambiente Ágil, utilizando o e-commerce real do [Continente](https://www.continente.pt/) como caso de estudo. O foco está na rastreabilidade entre os requisitos de negócio (Jira) e a execução técnica (Playwright).
+
+### Por que o Continente E-Commerce?
+O Continente foi escolhido por ser um dos maiores retalhistas em Portugal, possuindo um e-commerce complexo com regras de negócio desafiadoras (ex: produtos vendidos ao peso, gestão de stock dinâmica, múltiplas variantes). Isso torna-o um cenário ideal para demonstrar testes robustos focados no utilizador e na estabilidade do carrinho de compras.
 
 ## 🛠️ Stack Tecnológico
 - **Ferramenta de Automação:** Playwright (TypeScript)
@@ -8,10 +11,10 @@ Este projeto demonstra a abordagem completa de um ciclo de Quality Assurance num
 - **Gestão Ágil:** Jira Software (Scrum)
 - **Gestão de Pacotes:** pnpm
 
-## 📂 Estrutura do Projeto
-- `/docs/test-cases`: Especificações em formato BDD (Gherkin).
-- `/docs/bugs`: Relatórios de defeitos técnicos reais encontrados explorando a aplicação.
-- `/e2e`: Script completo de automação cobrindo o fluxo de busca e adição ao carrinho com estabilidade cross-browser.
+## 📂 Estrutura e Atalhos
+- **[Plano de Testes e Cenários (BDD)](./docs/test-cases/cenarios_carrinho.md)**: Especificações em formato Gherkin abrangendo caminhos felizes e de exceção.
+- **[Relatórios de Bugs (Bug Reports)](./docs/bugs/bug_01_multiplos_cliques.md)**: Relatórios detalhados de anomalias encontradas, incluindo evidências e passos para reproduzir.
+- **[/e2e](./e2e/)**: Script completo de automação cobrindo o fluxo de busca e adição ao carrinho com estabilidade cross-browser.
 
 ## 🚀 Como executar a automação
 #### 1. Navegue até à pasta `e2e/`:
