@@ -1,0 +1,15 @@
+{
+  "cucumber.glue": [
+    "step_definitions/**/*.ts"
+  ],
+  "cucumberautocomplete.steps": [
+    "step_definitions/**/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "features/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "biomejs.biome",
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
+}
